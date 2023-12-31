@@ -3,7 +3,7 @@ name: Update Algolia on schedule
 # Update Algolia once an hour at the beginning of the hour
 on:
   schedule:
-    - cron:  '0 * * * *'
+    - cron:  '0 * * * *' 
 
 # This workflow downloads the data from the documentation indices in Algolia as
 # well as the latest data from the wordpress content indices in Algolia. It
